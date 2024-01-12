@@ -29,7 +29,7 @@ int main() {
         }
     }
 
-    // Calculate average commission for each employee
+   
   pair<string, double> average_commissions[emp];
 
     for (int i = 0; i < emp; ++i) {
@@ -43,9 +43,7 @@ int main() {
     }
 
     
- 
-
-    // Print the top 5 employees with the highest average commission
+    
   cout << "Top 5 Employees with the Highest Average Commission:" <<endl;
     for (int i = 0; i < min(5, emp); ++i) {
        cout << i + 1 << ". " << average_commissions[i].first << ": $"
